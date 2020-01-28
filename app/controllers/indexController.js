@@ -50,7 +50,7 @@ async function createItem2(ctx, next) {
   let body = await Joi.validate(ctx.request.body, advanceSettlementSchema, {
     allowUnknown: true
   });
-  ctx.body = await myDb.getSettlement(body.name);
+  ctx.body = await myDb.getSettlement();
   ctx.status = 200;
   await next();
 }

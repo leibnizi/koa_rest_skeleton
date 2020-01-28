@@ -27,10 +27,11 @@
     "@koa/cors": "2",
     "frisby": "^0.8.5",
     "get-port": "^3.0.0",
-    "jasmine-node": "*"
+    "jasmine-node": "*",
+    "nodemon": "^2.0.2"
   },
   "scripts": {
-    "start": "node --harmony index.js",
+    "start": "nodemon --harmony index.js",
     "test": "node --harmony ./node_modules/jasmine-node/lib/jasmine-node/cli.js spec"
   },
   "engines": {
