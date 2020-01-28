@@ -11,30 +11,10 @@ This version based on [koa 2.7.0](https://github.com/koajs/koa).
 $ git clone https://github.com/ria-com/node-koajs-rest-skeleton
 ```
 
-**Make your own new project:**
-
-```sh
-$ mv node-koajs-rest-skeleton my_new_project
-$ cd my_new_project
-$ rm -rf .git
-```
-
-**Edit package.json:**
-
-```sh
-$ vi package.json
-```
-
-**Edit config/\* files:**
-
-```sh
-$ vi config/default.js
-```
-
 **Install modules**
 
 ```sh
-$ npm install
+$ yarn
 ```
 
 **Start app:**
